@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #003366;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.navbar {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #003366;
+}
+
+.projects a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
+
+/* Skills Bar Chart */
+.skills-chart .skill {
+  margin-bottom: 20px;
+}
+
+.skills-chart .bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.skills-chart .bar div {
+  background: #003366;
+  color: #fff;
+  height: 100%;
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #003366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0055aa;
+}
+
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
